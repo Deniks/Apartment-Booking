@@ -1,0 +1,11 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "deploy config",
+  "scripts": {
+    "production": "concurrently \"node dist/index.js\" \"npm run client\""
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
