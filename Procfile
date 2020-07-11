@@ -1,2 +1,2 @@
-web: npm run production
+web:  cd server && npm run production
 
