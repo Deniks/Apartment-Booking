@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "deploy config",
   "scripts": {
-    "production": "concurrently \"node dist/index.js\" \"npm run client\""
+    "production": "concurrently \"node server/dist/index.js\" \"cd client && npm run start\""
   },
   "engines": {
     "node": "12.x"
