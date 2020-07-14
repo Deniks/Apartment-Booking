@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "deploy",
   "version": "1.0.0",
   "description": "deploy config",
   "main": "./server/dist/index.js",
