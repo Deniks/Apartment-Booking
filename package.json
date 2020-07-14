@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "deploy config",
   "scripts": {
-    "production": "concurrently \"cd server && npm run server\" \"cd client && npm run start\""
+    "start": "concurrently \"cd server && npm run server\" \"cd client && npm run start\""
   },
   "engines": {
     "node": "12.x"
