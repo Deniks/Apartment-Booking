@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "deploy config",
   "scripts": {
-    "production": "concurrently \"node server/dist/index.js\" \"cd client && npm run start\""
+    "production": "concurrently \"cd server && npm run server\" \"cd client && npm run start\""
   },
   "engines": {
     "node": "12.x"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
   }
 }
