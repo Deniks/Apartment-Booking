@@ -1,0 +1,19 @@
+#outlined-select-currency {
+  color: #c7c7c7;
+}
+.MuiInput-underline:before {
+  border-color: #fdae5c !important;
+}
+
+.MuiInputBase-input {
+  color: #c7c7c7 !important;
+}
+
+.MuiSvgIcon-root {
+  color: #fdae5c;
+}
+
+.MuiOutlinedInput-notchedOutline,
+.MuiOutlinedInput-notchedOutline:hover {
+  border-color: #c7c7c7 !important;
+}

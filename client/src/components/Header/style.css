@@ -1,0 +1,37 @@
+.header-area {
+  flex-grow: 1;
+  align-items: center;
+}
+
+.header-area .title {
+  flex-grow: 1;
+}
+
+.header-area a {
+  margin: 0 15px;
+}
+
+.navigation-bar,
+.navigation-bar ul {
+  list-style: none;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+}
+
+.MuiAppBar-colorTransparent {
+  top: 30px;
+}
+.header-area #navigation li a {
+  color: #ffffff;
+}
+.header-area #navigation li:first-child {
+  margin-left: 0;
+}
+
+.header-area #navigation li:last-child {
+  margin-right: 0;
+}

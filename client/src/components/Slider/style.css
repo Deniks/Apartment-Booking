@@ -1,0 +1,78 @@
+#slider {
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+}
+/*====== WIDTH ======*/
+.screenW {
+  width: 100vw;
+}
+.fullW {
+  width: 100%;
+}
+/*====== HEIGHT ======*/
+.screenH {
+  height: 100vh;
+}
+.fullH {
+  height: 100%;
+}
+.height70 {
+  height: 70px;
+}
+/*====== BG COLOR ======*/
+.dGray {
+  background-color: #333;
+}
+.white {
+  background-color: #fff;
+}
+.white50 {
+  background-color: #ffffff80;
+}
+.black50 {
+  background-color: #00000080;
+}
+/*====== FONT ======*/
+.fSize2 {
+  font-size: 2rem;
+}
+/*====== IMAGE ======*/
+.imgCover {
+  -o-object-fit: cover;
+  object-fit: cover;
+  background-size: cover;
+  -webkit-filter: brightness(75%);
+  filter: brightness(75%);
+}
+/*====== OVERFLOW ======*/
+.overflowH {
+  overflow: hidden;
+}
+/*====== TRANSITIONS ======*/
+.transition1l {
+  transition: opacity 1s ease-in-out;
+}
+/*====== POSITION ======*/
+.abs {
+  position: absolute;
+}
+.rel {
+  position: relative;
+}
+.left0 {
+  opacity: 1;
+}
+.left100vw {
+  opacity: 0;
+}
+.leftM100vw {
+  opacity: 0;
+}
+.bot0 {
+  bottom: 0;
+}
