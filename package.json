@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "deploy config",
   "scripts": {
-    "start": "concurrently \"cd server && npm run server\" \"cd client && npm run start\""
+    "client": "npm start --prefix ./client",
+    "server": "npm start --prefix ./server",
+    "start": "concurrently \"npm run server\" \"npm run client\""
   },
   "engines": {
     "node": "12.x"
