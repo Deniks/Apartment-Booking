@@ -2,6 +2,7 @@
   "name": "server",
   "version": "1.0.0",
   "description": "deploy config",
+  "main": "./server/dist/index.js",
   "scripts": {
     "client": "npm start --prefix ./client",
     "server": "npm start --prefix ./server",
