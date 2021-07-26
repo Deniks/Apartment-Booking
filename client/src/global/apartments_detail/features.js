@@ -30,4 +30,7 @@ Flat screen TV, WiFi, washing machine, dish washer, oven with microwave function
   `
 Flat screen TV, WiFi, washing machine, dish washer, oven with microwave function, induction stove top, electric kattle, nespresso machine, toaster, fully equipped kitchen, walk in shower, hair dryer, towels, linens.    
 `,
+  `
+Flat screen TV, WiFi, washing machine, dish washer, oven with microwave function, induction stove top, electric kattle, nespresso machine, toaster, fully equipped kitchen, walk in shower, hair dryer, towels, linens.    
+`,
 ];

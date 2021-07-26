@@ -51,16 +51,19 @@ const props = (prevProps, nextProps) => true;
 
 export const CatalogSection = memo(() => {
   const searchParams = useContext(FilterContext);
-  const { loading, error, data, fetchMore, refetch } = useQuery(GET_APARTMENTS);
+  const { loading, error, data, fetchMore, refetch } = useQuery(
+    GET_APARTMENTS,
+    {
+      variables: { limit: 6 },
+    }
+  );
   const [filtredApartments, setFilteredApartments] = useState();
   const container = useRef();
   const classes = useStyles();
 
   const gatherApartments = useCallback(
-    (limit, skip) => {
+    (limit = 0, skip = 0) => {
       fetchMore({
-        // note this is a different query than the one used in the
-        // Query component
         query: GET_APARTMENTS,
         variables: { limit, skip },
         updateQuery: (previousResult, { fetchMoreResult }) => {
@@ -130,7 +133,7 @@ export const CatalogSection = memo(() => {
           className={classes.expandButtonContainer}
         >
           <Button
-            onClick={() => gatherApartments(3, 3)}
+            onClick={() => gatherApartments(3, fetchedApartments.length + 1)}
             variant="outlined"
             color="primary"
             disabled={loading || error ? true : false}

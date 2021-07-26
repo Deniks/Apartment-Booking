@@ -71,4 +71,18 @@ export const description = [
   The kitchen is equipped with electric oven and stove top, micro, fridge, washing machine, dishwasher, electric kettle, Nespresso coffee machine, toaster, iron and ironing desk.
   
     `,
+  `
+  Fantastic brand new apartment with 2 bedrooms and 2 bathrooms near the theater Tivoli and Av.Liberdade. 
+  
+  This is ideal location for exploring Lisbon.
+
+  The space.
+
+  The access to the apartment is by the elevator. There are 2 bedrooms with double beds and 2 bathrooms: one with the bathtub and other with the shower. 
+  
+  Hair dryer and towels are provided. The living room has a comfortable sofa, flat screen TV with international channels. 
+  
+  The kitchen is equipped with electric oven and stove top, micro, fridge, washing machine, dishwasher, electric kettle, Nespresso coffee machine, toaster, iron and ironing desk.
+  
+    `,
 ];

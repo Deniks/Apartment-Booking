@@ -140,6 +140,7 @@ export const full_hd_images = {
     s28_4_full_hd,
     s28_5_full_hd,
   ],
+  'Barbadinhos 138': [b21_0, b21_1, b21_2, b21_3, b21_4, b21_5, b21_6],
 };
 
 export const images = {
@@ -158,4 +159,5 @@ export const images = {
     rs28_7,
   ],
   'Sampaio 28': [s28_0, s28_1, s28_2, s28_3, s28_4, s28_5],
+  'Barbadinhos 138': [b21_0, b21_1, b21_2, b21_3, b21_4, b21_5, b21_6],
 };
